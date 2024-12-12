@@ -1,0 +1,214 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+
+.fundo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.rodape {
+    position: absolute;
+    z-index: 2;
+    left: 80%;
+    top: 5%;
+}
+
+.informacoes {
+    color: white;
+    text-decoration: none;
+}
+
+.publicacoes {
+    color: white;
+    text-decoration: none;
+}
+
+.chat {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    width: 20%;
+    margin-top: -2%;
+}
+
+.digitar {
+    position: relative;
+    background-color: rgba(0, 255, 85, 0);
+    padding: 10px;
+    width: 39%;
+}
+
+.digitar input {
+    position: relative;
+    background-color: #ffffff81;
+    width: 200%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: -8%;
+    border: none;
+}
+
+.lupa {
+    position: absolute;
+    top: 17%;
+    width: 10%;
+    left: 180%;
+}
+
+fieldset {
+    position: relative;
+    background-color: #ffffff81;
+    width: 6%;
+    padding: 8%;
+    margin-left: 10%;
+    margin-top: -1%;
+    border-radius: 10px;
+    border: none;
+}
+
+h1 {
+    position: relative;
+    background-color: #ffffffb7;
+    width: 21.7%;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    color: #00670c;
+}
+
+.quadrado2 {
+    position: absolute;
+    left: 58%;
+    top: 30%;
+    background-color: #ffffffaf;
+    padding: 15%;
+    width: -10cm;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.min {
+    position: absolute;
+    left: 6%;
+    color: #006718;
+    margin-top: -45%;
+    font-size: 18px;
+}
+
+.max {
+    position: absolute;
+    left: 54%;
+    color: #006718;
+    margin-top: -45%;
+    font-size: 18px;
+}
+
+.umidade {
+    position: absolute;
+    left: 57%;
+    color: #006718;
+    margin-top: 4%;
+    font-size: 18px;
+}
+
+.Sensação {
+    position: absolute;
+    left: 6%;
+    color: #006718;
+    margin-top: 4%;
+    font-size: 18px;
+}
+
+.cmin {
+    position: absolute;
+    background-color: #c5c5c599;
+    top: 30%;
+    left: 26%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    width: 60px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.cmax {
+    position: absolute;
+    background-color: #c5c5c599;
+    top: 30%;
+    left: 74%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    width: 60px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.umi {
+    position: absolute;
+    background-color: #c5c5c599;
+    top: 79%;
+    left: 74%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    width: 60px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.sen {
+    position: absolute;
+    background-color: #c5c5c599;
+    top: 79%;
+    left: 26%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    width: 60px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#exibir {
+    position: absolute;
+    margin-top: 14%;
+
+}
+
+#imagem {
+    position: absolute;
+    margin-top: -15%;
+    width: 15%;
+    left: 14%;
+}
+
+#previsao {
+    margin-top: 20px;
+}
+
+#dia1, #dia2, #dia3, #dia4 {
+    margin-bottom: 15px;
+}

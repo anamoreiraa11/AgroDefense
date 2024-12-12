@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clima.css">
+    <link rel="icon" href="img/logo2 (1).png">
+    <title>CLIMA</title>
+</head>
+
+<body>
+    <img src="img/fundo.png" class="fundo">
+    <img class="logo" src="img/14.png">
+
+    <div class="rodape">
+        <a href="informacoes.php" class="informacoes">INFORMAÇÕES</a>
+        <a href="post_img.php" class="publicacoes">PUBLICAÇÕES</a>
+        <a href="post_chat.php" class="chat">CHAT</a>
+    </div>
+
+
+    <fieldset class="digitar">
+        <input type="text" id='pesquisa' class="caixa" placeholder="Cidade">
+        <img class="lupa" src="img/agrodefense (2).png" onclick="buscarClima()"></button>
+    </fieldset>
+
+    <h1>DIA</h1>
+    <fieldset>
+        <div id="exibir"></div>
+    </fieldset>
+
+    <div class="quadrado2">
+        <div class="max">
+            <p>Temperatura max.</p>
+        </div>
+        <div class="cmax" id="exibirMax"></div>
+
+        <div class="min">
+            <p>Temperatura min.</p>
+        </div>
+        <div class="cmin" id="exibirMin"></div>
+
+        <div class="umidade">
+            <p>Umidade do ar</p>
+        </div>
+        <div class="umi" id="exibirUmi"></div>
+
+        <div class="Sensação">
+            <p>Sensação termica</p>
+        </div>
+        <div class="sen" id="exibirSen"></div>
+
+    </div>
+
+    <img id="imagem" src="">
+
+    <script src="clima.js"></script>
+
+    <!-- V-libars -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+.fundo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 20%;
+}
+
+.form-container {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 30%;
+    height: 60%;
+    background-color: #6b5a2c;
+    border-radius: 20px;
+}
+
+.textcadastro {
+    position: absolute;
+    top: 1%;
+    width: 40%;
+    left: 27%;
+}
+
+.form {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    width: 150%;
+}
+
+.voltar {
+    position: absolute;
+    top: 150%;
+    color: white;
+    left: 62%;
+}
+
+.cadastrar {
+    position: absolute;
+    top: 120%;
+    left: 23%;
+    background-color: #00ff23;
+    color: #6b5a2c;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+}
+
+.termos{
+    position: absolute;
+    top:65%;
+    margin-left: 37%;
+    width: 30%;
+}
+
+select {
+    border-radius: 10px;
+    border: none;
+    width: 150%;
+}

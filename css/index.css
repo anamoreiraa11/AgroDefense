@@ -1,0 +1,105 @@
+.fundo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 20%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ff23;
+    color: #3b6560;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri
+}
+
+.entrar {
+    position: absolute;
+    top: 15%;
+    left: 67%;
+}
+
+.cadastrar {
+    position: absolute;
+    top: 15%;
+    left: 80%;
+}
+
+.test {
+    position: absolute;
+    top: 45%;
+    left: 22%;
+    width: 55%;
+}
+
+.contatoimg {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    width: 3%;
+}
+
+.contatotest {
+    position: absolute;
+    top: 86.5%;
+    left: 83%;
+    color: #f8bb0b;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-comment {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}

@@ -1,0 +1,76 @@
+/* Estilo para o cabeçalho (teto principal) */
+body {
+    background-color: #f0f8f0;  /* Cor de fundo suave para o corpo da página */
+    font-family: 'Arial', sans-serif;
+}
+
+nav .navbar-brand,
+nav .navbar-nav .nav-link {
+    color: rgb(53, 181, 51) !important; /* Garantir que o texto no navbar seja branco */
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: #00ff3c !important; /* Cor de hover mais clara */
+}
+
+
+.card {
+    background-color: rgba(158, 158, 158, 0.178); 
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px; 
+}
+
+.card-title {
+    font-size: 1rem; 
+    background-color: rgb(165, 81, 42);
+    color: #ffffff; 
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px;
+}
+ 
+.card-text {
+    font-size: 0.9em; 
+    color: #555; 
+    line-height: 1.5; 
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: #9d5e05; /* Cor verde para links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 1 1 100%; 
+    }
+}
